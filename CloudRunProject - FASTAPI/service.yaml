@@ -1,0 +1,12 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: servicio-fastapi-m2pf
+spec:
+  template:
+    spec:
+      containers:
+        - image: us-central1-docker.pkg.dev/project-mlops9-cm/repo-mlops9-m2pf/image-v7-servicio-fastapi-m2pf-datapath:latest
+          env:
+          ports:
+            - containerPort: 4007

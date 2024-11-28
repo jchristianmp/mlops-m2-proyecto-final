@@ -1,0 +1,7 @@
+streamlit
+pandas
+joblib
+feature-engine
+scikit-learn
+matplotlib
+lightgbm

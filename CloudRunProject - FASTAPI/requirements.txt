@@ -1,0 +1,15 @@
+pandas
+joblib
+feature-engine
+scikit-learn
+matplotlib
+lightgbm
+numpy
+python-multipart
+uvicorn
+fastapi
+
+
+
+
+
